@@ -46,7 +46,7 @@
   export default {
     data() {
       return {
-        isCollapse: true
+        isCollapse: true,
       };
     },
     methods: {
@@ -55,7 +55,7 @@
       },
       handleClose(key, keyPath) {
         console.log(key, keyPath);
-      }
-    }
-  }
+      },
+    },
+  };
 </script>
